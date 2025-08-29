@@ -1,0 +1,138 @@
+/* 🎨 Colores principales */
+:root {
+  --color-background: #1e1c1a; /* Fondo oscuro elegante */
+  --color-primary: #c2a878;    /* Beige/Marrón claro para resaltar */
+  --color-text: #e6e2dd;       /* Texto gris claro, legible */
+  --color-card: #2a2725;       /* Gris-marrón más claro que el fondo */
+}
+
+
+/* 🔥 Estilos generales */
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-section {
+  border-radius: 20px;
+  padding: 6rem 1rem;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  color: white;
+}
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.hero-section p {
+  opacity: 0.9;
+}
+.hero-section button {
+  background: var(--color-accent) !important;
+  border: none;
+  transition: all 0.3s ease;
+}
+.hero-section button:hover {
+  background: #db2777 !important;
+  transform: translateY(-2px);
+}
+
+/* 🛒 Cards de productos */
+.product-card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: white;
+}
+.product-card img {
+  border-bottom: 1px solid #eee;
+  height: 240px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.product-card:hover img {
+  transform: scale(1.05);
+}
+.product-card h5 {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+.product-card .precio {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+.product-card button {
+  background: var(--color-secondary);
+  border: none;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+.product-card button:hover {
+  background: var(--color-accent);
+}
+
+/* ⭐ Sección Valores */
+section .shadow-sm {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+section .shadow-sm:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+/* 📌 Botones de categorías */
+.categoria-btn {
+  border-radius: 30px !important;
+  padding: 0.5rem 1.2rem;
+  font-weight: 500;
+  border: 2px solid var(--color-secondary) !important;
+  color: var(--color-secondary) !important;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+.categoria-btn:hover, .categoria-btn.active {
+  background: var(--color-secondary) !important;
+  color: white !important;
+}
+
+/* 🔔 Toasts */
+.toast-notification {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: white;
+  border-left: 6px solid var(--color-secondary);
+  padding: 0.8rem 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  z-index: 1055;
+  animation: fadeInOut 3s ease forwards;
+}
+.toast-notification.toast-success {
+  border-left-color: #10B981;
+}
+.toast-notification.toast-error {
+  border-left-color: #EF4444;
+}
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateX(100%); }
+  10%, 90% { opacity: 1; transform: translateX(0); }
+  100% { opacity: 0; transform: translateX(100%); }
+}
+
+/* 🛍️ Carrito */
+#cart-items strong {
+  color: var(--color-primary);
+}
+#cart-total {
+  font-weight: 700;
+  color: var(--color-secondary);
+}
