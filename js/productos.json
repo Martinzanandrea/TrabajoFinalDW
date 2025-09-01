@@ -1,324 +1,327 @@
 {
-  "productos": [
+    "productos": [
     {
       "id": 1,
       "categoria": "Pantalones",
       "nombre": "Pantalón Zanma Slim Fit Negro",
       "descripcion": "Pantalón slim fit premium, diseño elegante para ocasiones formales y casuales. Tejido de alta calidad.",
-      "precio": 49.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2极93ccde5887/image/8856f83b-18ba-43e3-8c61-ddade1f7e343.png"
+      "precio": 59988,
+      "imagen": "https://i.pinimg.com/736x/d1/c6/57/d1c657b131e571001fb4d513549b6082.jpg"
     },
     {
       "id": 2,
-      "categoria": "Pantalons",
+      "categoria": "Pantalones",
       "nombre": "Jeans Zanma Dark Wash",
       "descripcion": "Jeans de mezclilla oscura, corte moderno y cómodo. Perfecto para looks casuales.",
-      "precio": 59.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c1377785-01d4-434a-92b5-2a5990c043dc.png"
+      "precio": 71988,
+      "imagen": "https://i.pinimg.com/1200x/21/c9/e9/21c9e95c64f6df6b2ac61bdf71468661.jpg"
     },
     {
       "id": 3,
       "categoria": "Pantalones",
       "nombre": "Pantalón Cargo Zanma Verde",
       "descripcion": "Pantalón cargo con múltiples bolsillos funcionales. Estilo militar moderno.",
-      "precio": 55.99,
-      "imagen": "https://storage.googleapis.com/workspace-0极70711f-8b4e-4d94-86f1-2a93ccde5887/image/52438d22-0676-4624-9f54-781319c0e0b8.png"
+      "precio": 67188,
+      "imagen": "https://i.pinimg.com/736x/07/50/13/075013f10c7de4df39133974d11e6164.jpg"
     },
     {
       "id": 4,
       "categoria": "Pantalones",
       "nombre": "Pantalón Deportivo Zanma",
       "descripcion": "Pantalón deportivo con tecnología de secado rápido. Ideal para actividades físicas.",
-      "precio": 42.99,
-      "imagen": "极://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5b077ad1-2007-4021-bc77-a13350cb114极.png"
+      "precio": 51588,
+      "imagen": "https://i.pinimg.com/1200x/79/a7/13/79a71313ed7dc298575c3e25b5934b7c.jpg"
     },
     {
       "id": 5,
       "categoria": "Pantalones",
       "nombre": "Pantalón Zanma Chino Beige",
-      "descripcion": "Pantalón chino clásico en color极eige. Versátil y elegante para cualquier ocasión.",
-      "precio": 47.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/7d0711b1-11a8-4fec-ba16-590dfd71cba3.png"
+      "descripcion": "Pantalón chino clásico en color beige. Versátil y elegante para cualquier ocasión.",
+      "precio": 57588,
+      "imagen": "https://i.pinimg.com/1200x/3c/94/7f/3c947f1202aacd8f349aa4d975997213.jpg"
     },
     {
       "id": 6,
       "categoria": "Pantalones",
       "nombre": "Pantalón Zanma Wide Leg",
       "descripcion": "Pantalón de corte amplio, tendencia actual en moda urbana. Muy cómodo.",
-      "precio": 52.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/7d8d4f86-1b3极-471a-b58极-91e5724b501c.png"
+      "precio": 63588,
+      "imagen": "https://i.pinimg.com/1200x/2a/e7/36/2ae7367f419d178381a2456c46f7a9e5.jpg"
     },
     {
       "id": 7,
       "categoria": "Pantalones",
       "nombre": "Pantalón Zanma de Cuero",
       "descripcion": "Pantalón de cuero sintético de alta calidad. Look rockero y sofisticado.",
-      "precio": 89.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/017cc552-bd4e-4c7d-8f55-52f435ff56fc.png"
+      "precio": 107988,
+      "imagen": "https://i.pinimg.com/736x/88/36/15/883615b4bbd33c60fd48754c663d1888.jpg"
     },
     {
       "id": 8,
       "categoria": "Pantalones",
       "nombre": "Pantalón Zanma Jogger Gris",
       "descripcion": "Pantalón jogger con cintura elástica y ajuste en tobillo. Perfecto para streetwear.",
-      "precio": 44.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4极d94-86f1-2a93ccde5887/image/232e1f25-5160-417b-a52a-2053e9f11bcf.png"
+      "precio": 53988,
+      "imagen": "https://i.pinimg.com/736x/b1/a8/a7/b1a8a765bda05ed2ca2d450fc175c00d.jpg"
     },
     {
       "id": 9,
       "categoria": "Pantalones",
       "nombre": "Pantalón Zanma de Lino",
-      "descripcion": "极antalón de lino natural, ideal para climas cálidos. Transpirable y ligero.",
-      "precio": 51.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/80759819-40fd-457e-aeb3-fbca2e327d78.png极"
+      "descripcion": "Pantalón de lino natural, ideal para climas cálidos. Transpirable y ligero.",
+      "precio": 62388,
+      "imagen": "https://i.pinimg.com/736x/83/fd/5a/83fd5a90a581f697d8e829dc7544f8ce.jpg"
     },
     {
       "id": 10,
       "categoria": "Pantalones",
       "nombre": "Pantalón Zanma Térmico",
       "descripcion": "Pantalón térmico para invierno. Mantiene el calor y es muy cómodo.",
-      "precio": 65.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e900853a-e6b1-47db-9d9f-916ec6f1e189.png"
+      "precio": 79188,
+      "imagen": "https://i.pinimg.com/1200x/9c/5d/3d/9c5d3d612628ca107209b75541cb8950.jpg"
     },
+
     {
       "id": 11,
       "categoria": "Remeras",
       "nombre": "Remera Zanma Básica Blanca",
-      "descripcion": "Remera 100% algodón, corte clásico. Ideal para combinar con cualquier outfit.",
-      "precio": 19.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f极-2a93cc极e5887/image/bdd48599-0881-484e-91fe-极a59b930bd9c.png"
+      "descripcion": "Remera clásica de algodón 100%, corte unisex. Ideal para el día a día.",
+      "precio": 23988,
+      "imagen": "https://i.pinimg.com/1200x/50/f9/78/50f97855b783c889c6fb1611cf2403cb.jpg"
     },
     {
       "id": 12,
       "categoria": "Remeras",
-      "nombre": "Remera Zanma Negra Premium",
-      "descripcion": "Remera negra de alta calidad, no se decolora. Corte moderno y ajuste perfecto.",
-      "precio": 24.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d81bdc0f-c362-4dc9-833a-4f74c693afc1.png"
+      "nombre": "Remera Zanma Oversize Negra",
+      "descripcion": "Remera oversize estilo urbano, muy cómoda y versátil.",
+      "precio": 31188,
+      "imagen": "https://i.pinimg.com/736x/8f/7b/5c/8f7b5cfeba9374d8b638e9d91528b572.jpg"
     },
     {
       "id": 13,
       "categoria": "Remeras",
       "nombre": "Remera Zanma con Estampado",
-      "descripcion": "Remera con estampado exclusivo de Zanma. Diseño modern极 y urbano.",
-      "precio": 29.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8极4e-4d94-86f1-2a93ccde5887/image/cd889f16-5553-44a4-a34b-26ae0c7bef26.png"
+      "descripcion": "Remera con estampado gráfico exclusivo de la marca Zanma.",
+      "precio": 35988,
+      "imagen": "https://i.pinimg.com/736x/36/d4/f1/36d4f17478e985ba023c9a3ca4f9638d.jpg"
     },
     {
       "id": 14,
-      "categoria": "Remeras极",
-      "nombre": "Remera Zanma Manga Larga",
-      "descripcion": "Remera de manga larga, perfecta para capas de ropa. Tejido suave y cómodo.",
-      "precio": 34.9,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/36cbbf3a-80a9-4c2d-8bff-6fe3dc135992.png"
+      "categoria": "Remeras",
+      "nombre": "Remera Zanma de Manga Larga",
+      "descripcion": "Remera manga larga de algodón premium, ideal para media estación.",
+      "precio": 45588,
+      "imagen": "https://i.pinimg.com/736x/d7/28/d5/d728d591198221bb73971bb2915f3803.jpg"
     },
     {
       "id": 15,
       "categoria": "Remeras",
-      "nombre": "Remera Zanma Dry Fit",
-      "descripcion": "Remera técnica con tecnología dry fit. Ideal para deporte y actividades físicas.",
-      "precio": 39.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d57af9a5-0be3-4f0d-a943-563cdab0b65a.png"
+      "nombre": "Remera Zanma Crop Top",
+      "descripcion": "Crop top de algodón con diseño moderno. Ideal para looks casuales.",
+      "precio": 27588,
+      "imagen": "https://i.pinimg.com/736x/a1/b9/54/a1b9541f28179948a5865fc89c43dedf.jpg"
     },
     {
       "id": 16,
       "categoria": "Remeras",
-      "nombre": "Remera Zanma Vintage Wash",
-     "descripcion": "Remera con efecto vintage, estilo retro único. Algodón envejecido naturalmente.",
-      "precio": 27.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711极-8b4e-4d94-86f1-2a93ccde5887/image/7f82df22-a22d-4964-b4极b-6d3f5b742bb8极.png"
+      "nombre": "Remera Zanma Dry Fit",
+      "descripcion": "Remera deportiva dry fit, respirable y de secado rápido.",
+      "precio": 32388,
+      "imagen": "https://i.pinimg.com/736x/41/db/98/41db983080452fd01f48f3c4902d7307.jpg"
     },
     {
       "id": 17,
       "categoria": "Remeras",
-      "nombre": "Remera Zanma Oversize",
-      "descripcion": "Remera oversize, tendencia streetwear. Cómoda y con estilo urbano.",
-      "precio": 32.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/50287fff-5d28-4501-a14f-5f1c1dd8c2ef.png"
+      "nombre": "Remera Polo Zanma",
+      "descripcion": "Remera tipo polo con cuello y botones. Elegante y casual.",
+      "precio": 41988,
+      "imagen": "https://i.pinimg.com/1200x/16/04/89/160489d662d14e1f1bb9343b2a37493e.jpg"
     },
     {
       "id": 18,
       "categoria": "Remeras",
-      "nombre": "Remera Zanma Cuello V",
-      "descripcion": "Remera con cuello en V, elegante y versát极. Perfecta para looks casual-smart.",
-      "precio": 26.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e58ec4a4-5047-4bdf-ac6a-2f5be3ee21a7.png"
+      "nombre": "Remera Zanma Vintage",
+      "descripcion": "Remera con diseño retro y teñido efecto gastado.",
+      "precio": 39588,
+      "imagen": "https://i.pinimg.com/736x/7a/e3/e4/7ae3e43f77450e0b1fb4ab8b7c425145.jpg"
     },
     {
       "id": 19,
-      "极ategoria": "Remeras",
-      "nombre": "Remera Zanma de Seda",
-      "descripcion": "Remera de seda natural, lujo y comodidad. Perfecta para ocasiones especiales.",
-      "precio": 79.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1d730d3极-9dc1-4e3c-904e-0c34b8c112a1.png"
+      "categoria": "Remeras",
+      "nombre": "Remera Zanma Estilo Minimal",
+      "descripcion": "Remera minimalista, sin estampados. Corte moderno.",
+      "precio": 29988,
+      "imagen": "https://i.pinimg.com/1200x/fc/c2/50/fcc25029f74fcfa5966e56dcd69b982e.jpg"
     },
     {
       "id": 20,
       "categoria": "Remeras",
-      "nombre": "Remera Zanma con Logo Bordado",
-      "descripcion": "Remera con logo de Zanma bordado a mano. Calidad premium y detalles exclusivos.",
-      "precio": 45.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/abf86567-f12极-4126-bed0-04d37c0e6312.png"
+      "nombre": "Remera Zanma Tie-Dye",
+      "descripcion": "Remera teñida con técnica tie-dye, única y llamativa.",
+      "precio": 34788,
+      "imagen": "https://i.pinimg.com/736x/14/25/93/142593f0347b2eb9530ff9c965b21016.jpg"
     },
+
     {
       "id": 21,
-      "categoria": "Zapatillas",
-      "nombre": "Zapatillas Zanma Runner",
-      "descripcion": "Zapatillas running con tecnología de amortiguación. Perfectas para correr y entrenar.",
-      "precio": 89.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-极a93ccde5887/image/8fc21fa7-9720-42d2-bfc8-188f50a84da2.png"
+      "categoria": "Buzos",
+      "nombre": "Buzo Zanma Hoodie Negro",
+      "descripcion": "Buzo con capucha clásico en color negro, bolsillos frontales.",
+      "precio": 71988,
+      "imagen": "https://i.pinimg.com/736x/38/cb/aa/38cbaaf83fdfb8c29d78cb307d6cb83e.jpg"
     },
     {
       "id": 22,
-      "categoria": "Zapatillas",
-      "nombre": "Zapatillas Zanma Urban",
-      "descripcion": "Zapatillas urbanas con estilo moderno. Cómodas para el día a día.",
-      "precio": 75.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/a14618f7-b874-44c6-9e15-1f9f76ccb536.png"
+      "categoria": "Buzos",
+      "nombre": "Buzo Zanma Oversize Beige",
+      "descripcion": "Buzo oversize color beige, estilo urbano y cómodo.",
+      "precio": 83988,
+      "imagen": "https://i.pinimg.com/736x/47/e3/14/47e3148a5dc261e8d4cb9b3458c7188f.jpg"
     },
     {
       "id": 23,
-      "categoria": "Zapatillas",
-      "nombre": "Zapatillas Zanma Classic White",
-      "descripcion": "Zapatillas clásicas blancas, atemporal y versátil. Combine con cualquier outfit.",
-      "precio": 69.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/09e6b96e-d63a-485e-9530-fb3550ee9158.png"
+      "categoria": "Buzos",
+      "nombre": "Buzo Zanma con Estampado",
+      "descripcion": "Buzo con estampado gráfico original de Zanma.",
+      "precio": 89988,
+      "imagen": "https://i.pinimg.com/736x/8e/a1/1c/8ea11c1ffb66043d2a2fd279c587fe3a.jpg"
     },
     {
       "id": 24,
-      "categoria": "极apatillas",
-      "nombre": "Zapatillas Zanma Hiking",
-      "descripcion": "Zapatillas para hiking con suela antideslizante. Perfectas para senderismo.",
-      "precio": 99.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde588极/image/51b467d1-1401-极d3a-9628-6fc35a0ca687.png"
+      "categoria": "Buzos",
+      "nombre": "Buzo Zanma de Lana",
+      "descripcion": "Buzo tejido en lana suave, ideal para invierno.",
+      "precio": 101988,
+      "imagen": "https://i.pinimg.com/736x/d2/1c/c4/d21cc44799273bba3a42b9e21e18a207.jpg"
     },
     {
       "id": 25,
-      "categoria": "Zapatillas",
-      "nombre": "Zapatillas Zanma Basketball",
-      "descripcion": "Zapatillas de basketball con soporte ankle. Tecnología deportiva de alto rendimiento.",
-      "precio": 119.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/712f6eb1-b9ae-4d49-b214-9db556da207b.png"
+      "categoria": "Buzos",
+      "nombre": "Buzo Zanma Crop Hoodie",
+      "descripcion": "Buzo corto con capucha, estilo moderno y juvenil.",
+      "precio": 81588,
+      "imagen": "https://i.pinimg.com/1200x/dc/da/11/dcda1117ee4a860ea82220ffd81d0942.jpg"
     },
     {
       "id": 26,
-      "categoria": "Zapatillas",
-      "nombre": "Zapatillas Zanma极lip-On",
-      "descripcion": "Zapatillas slip-on, prácticas y cómodas. Perfectas para looks casuales.",
-      "precio": 64.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/802fcf4a-9a6e-447e-a519-2f极a21b10fe9.png"
+      "categoria": "Buzos",
+      "nombre": "Buzo Zanma Minimalista",
+      "descripcion": "Buzo liso sin estampados, diseño minimalista elegante.",
+      "precio": 75588,
+      "imagen": "https://i.pinimg.com/736x/91/3a/a4/913aa4f529e2aa4438fbc33822d0c432.jpg"
     },
     {
-      "id":27,
-      "categoria": "Zapatillas",
-      "nombre": "Zapatillas Zanma Limited Edition",
-      "descripcion": "Edición limitada de zapatillas Zanma. Diseño exclusivo y materiales premium.",
-      "precio": 149.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5eec613f-6b32-4b7b-8073-c5afcf0386b1.png"
+      "id": 27,
+      "categoria": "Buzos",
+      "nombre": "Buzo Zanma con Cremallera",
+      "descripcion": "Buzo con cierre completo y bolsillos laterales.",
+      "precio": 93588,
+      "imagen": "https://i.pinimg.com/736x/bd/e6/45/bde645eb26b88b5c762dcceb4f46b7fa.jpg"
     },
     {
       "id": 28,
-      "categoria": "Zapatillas",
-      "nombre": "Zapatillas Zanma Trail",
-      "descripcion": "Zapatillas trail running para terrenos irregulares. Máxima tracción y durabilidad.",
-      "precio": 109.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/41be1d40-76b9-4be8-9f64-54a5d94261fd.png"
+      "categoria": "Buzos",
+      "nombre": "Buzo Zanma Polar",
+      "descripcion": "Buzo polar térmico para bajas temperaturas.",
+      "precio": 99588,
+      "imagen": "https://i.pinimg.com/736x/ff/eb/9d/ffeb9d1eef4a38113301c158d0a76300.jpg"
     },
     {
       "id": 29,
-      "categoria": "Zapatillas",
-      "nombre": "Zapatillas Zanma Minimalist",
-      "descripcion": "Zapatillas minimalistas, diseño limp极 y elegante. Perfectas para looks modernos.",
-      "precio": 79.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f8f8107d-eb1d-4dd8-91e极-89b5fb9ce375.png极"
+      "categoria": "Buzos",
+      "nombre": "Buzo Zanma Knitwear",
+      "descripcion": "Buzo tejido con estilo clásico y cómodo.",
+      "precio": 87588,
+      "imagen":"https://i.pinimg.com/736x/0d/e3/03/0de303480325de5269af414c3da99ade.jpg"
     },
     {
       "id": 30,
-      "categoria": "Zapatillas",
-      "nombre": "Zapatillas Zanma Winter",
-      "descripcion": "Zapatillas de invierno con aislamiento térmico. Impermeables y abrigadas.",
-      "precio": 129.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/22f674e0-7d23-478e-9bc9-458515bb0539.png"
+      "categoria": "Buzos",
+      "nombre": "Buzo Zanma Estilo Retro",
+      "descripcion": "Buzo con diseño retro inspirado en los 90s.",
+      "precio": 95988,
+      "imagen": "https://i.pinimg.com/1200x/b6/3d/9b/b63d9bd2e6c2d1d8b28ee95c7ff783dd.jpg"
     },
+
     {
       "id": 31,
-      "categoria": "Busos",
-      "nombre": "Buzo Zanma con Capucha",
-      "descripcion": "Buzo con capucha, tejido suave y cálido. Ideal para looks urbanos.",
-      "precio": 45.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/极a8872ae-b932-41dd-b68a-0456677a22d9.png"
+      "categoria": "Zapatillas",
+      "nombre": "Zapatillas Zanma Urban White",
+      "descripcion": "Zapatillas blancas estilo urbano, diseño limpio y moderno.",
+      "precio": 131988,
+      "imagen": "https://i.pinimg.com/736x/0b/95/57/0b95570f86f7b8a5c6caa4ad52e92cfa.jpg"
     },
     {
       "id": 32,
-      "categoria": "Busos",
-      "nombre": "Buzo Zanma Oversize",
-      "descripcion": "Buzo oversize, tendencia streetwear. Cómodo y con estilo moderno.",
-      "precio": 52.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/a3980170-66bc-446c-9d6c-e9f12a2593c9.png"
+      "categoria": "Zapatillas",
+      "nombre": "Zapatillas Zanma Running Pro",
+      "descripcion": "Zapatillas deportivas de alto rendimiento para running.",
+      "precio": 155988,
+      "imagen": "https://i.pinimg.com/1200x/c3/99/d9/c399d94ceefd33b90dd7a39983fccc55.jpg"
     },
     {
       "id": 33,
-      "categoria": "Busos",
-      "nombre": "Buzo Zanma Fleece",
-      "descripcion": "Buzo fleece, ultra abrigado y suave. Perfecto para climas fríos.",
-      "precio": 65.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b极e-4d94-86f1-2a93ccde5887/image/c4d7c98a-f3b6-4271-93f8-3bf9ce1f6164.png"
+      "categoria": "Zapatillas",
+      "nombre": "Zapatillas Zanma Retro 90s",
+      "descripcion": "Zapatillas estilo retro, inspiradas en los años 90.",
+      "precio": 143988,
+      "imagen": "https://i.pinimg.com/736x/1e/6f/42/1e6f425a99b6410de2d08b31b16f6164.jpg"
     },
     {
       "id": 34,
-      "categoria": "Busos",
-      "nombre": "Buz极 Zanma Sport",
-      "descripcion": "Buzo deportivo con tecnología moisture-wicking. Ideal para entrenamientos.",
-      "precio": 58.99,
-      "imagen": "https://storage.googleapis.com/works极ace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/514dd5e2-1dff-4005-a64d-9249deb72011.png"
+      "categoria": "Zapatillas",
+      "nombre": "Zapatillas Zanma Skate",
+      "descripcion": "Zapatillas robustas, ideales para skateboarding.",
+      "precio": 125988,
+      "imagen": "https://i.pinimg.com/1200x/87/24/9c/87249cbee45817a265bc61c0406f17fe.jpg"
     },
     {
       "id": 35,
-      "categoria": "Busos",
-      "nombre": "Buzo Zanma Premium Cotton",
-      "descripcion": "Buzo de algodón premium, suave y duradero. Calidad superior.",
-      "precio": 72.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/48393a49-e62d-433c-9d8d-26c427363494.png"
+      "categoria": "Zapatillas",
+      "nombre": "Zapatillas Zanma High Top",
+      "descripcion": "Zapatillas altas estilo urbano con diseño moderno.",
+      "precio": 137988,
+      "imagen": "https://i.pinimg.com/1200x/40/e1/97/40e197d7ef853c67af36374cd465783a.jpg"
     },
     {
       "id": 36,
-      "categoria": "Busos",
-      "nombre": "Buzo Zanma con Cierre",
-      "descripcion": "Buzo con cierre frontal, práctico y versátil. Múltiples colores disponibles.",
-      "precio": 49.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/eab8ecb7-9b36-4185-9d10-c99b63f98acb.png"
+      "categoria": "Zapatillas",
+      "nombre": "Zapatillas Zanma Minimal",
+      "descripcion": "Zapatillas con diseño minimalista en color negro.",
+      "precio": 119988,
+      "imagen": "https://i.pinimg.com/1200x/65/e8/e6/65e8e6680f2aa1e73760dc90938292cb.jpg"
     },
     {
       "id": 37,
-      "categoria": "Busos",
-      "nombre": "Buzo Zanma Graphic",
-      "descripcion": "Buzo con estampado gráfico exclusivo. Diseño urbano y moderno.",
-      "precio": 67.99,
-      "imagen":"https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ab9db766-7ef6-4b16-924a-99bf5f31e42f.png"
+      "categoria": "Zapatillas",
+      "nombre": "Zapatillas Zanma Trail",
+      "descripcion": "Zapatillas para senderismo y aventura outdoor.",
+      "precio": 149988,
+      "imagen": "https://i.pinimg.com/1200x/63/06/77/6306771ce056fecfe024760f73a70403.jpg"
     },
     {
       "id": 38,
       "categoria": "Busos",
       "nombre": "Buzo Zanma Thermal",
       "descripcion": "Buzo térmico para invierno. Extra abrigado y cómodo.",
-      "precio": 84.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d80e4b06-6c14-459d-af38-8fb401178f21.png"
+      "precio": 100000,
+      "imagen": "https://i.pinimg.com/736x/d6/4d/f6/d64df685bb9087c460ff2370f582e580.jpg"
     },
     {
       "id": 39,
       "categoria": "Busos",
       "nombre": "Buzo Zanma Lightweight",
       "descripcion": "Buzo ligero para primavera/otoño. Perfecto para capas de ropa.",
-      "precio": 43.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4极d94-86f1-2a93ccde5887/image/3ec50040-f9e1-4765-极3c1-52fe6f355ecc.png"
+      "precio": 50000,
+      "imagen": "https://i.pinimg.com/1200x/ab/5f/9e/ab5f9eee44336e173eac39937d6381bd.jpg"
     },
     {
       "id": 40,
       "categoria": "Busos",
       "nombre": "Buzo Zanma Limited Collection",
       "descripcion": "Buzo de edición limitada. Diseño exclusivo y materiales premium.",
-      "precio": 95.99,
-      "imagen": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/dacfab5a-40ae-408b-a1d5-27b2b636babb.png"
+      "precio": 120000,
+      "imagen": "https://i.pinimg.com/1200x/93/bb/ed/93bbedd6c05db0eb34f8de8b299aac35.jpg"
     }
   ]
 }

@@ -29,19 +29,16 @@ body {
   margin: 0 auto;
 }
 
+/* Navbar principal */
 .navbar {
   background-color: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
   padding: 1.2rem 0;
   backdrop-filter: blur(20px);
+  z-index: 1030; /* Siempre arriba */
 }
 
-.navbar-brand {
-  font-weight: 700;
-  font-size: 1.8rem;
-  color: var(--color-primary) !important;
-}
-
+/* Links */
 .navbar-nav .nav-link {
   color: var(--color-text) !important;
   font-weight: 500;
@@ -56,15 +53,62 @@ body {
   color: var(--color-primary) !important;
   background-color: var(--color-secondary);
 }
+#btn-cart:active{
+  background-color: var(--color-accent);
+}
+.btn{
+  color: #333;
+}
+#btn-cart:hover{
+  background-color: var(--color-accent);
+}
+
+/* Navbar collapse móvil */
+@media (max-width: 767px) {
+  .navbar-collapse {
+    width: 100%;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+  }
+
+  /* Botón de carrito móvil ocupa todo el ancho */
+  #btn-cart-mobile {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+
+/* Asegurar visibilidad del toggler */
+.navbar-toggler {
+  border-color: var(--color-primary);
+  margin: 2rem;
+}
+
+@media(min-width:775px){
+  .navbar-toggler {
+  border-color: var(--color-primary);
+  margin: 1rem;
+}
+}
+
 
 .btn {
   border-radius: 10px;
   font-weight: 500;
   font-size: 0.9rem;
-  padding: 0.7rem 1.5rem;
+  padding: 0.7rem 1rem;
   transition: all 0.3s ease;
   border: none;
   letter-spacing: 0.02em;
+  margin: 1.5rem;
 }
 
 .btn-primary {
@@ -404,3 +448,76 @@ body {
   transform: scale(1.05); /* Efecto zoom sutil al pasar el mouse */
 }
 
+/* Contenedor general del toast */
+.toast-notification {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 9999;
+    opacity: 0.95;
+    font-family: sans-serif;
+    margin: 10px;
+    animation: fadeIn 0.3s ease;
+    max-width: 300px;
+}
+
+/* Colores según tipo */
+.toast-success { background: #28a745; }
+.toast-error { background: #dc3545; }
+
+/* Icono y texto */
+.toast-content {
+    display: flex;
+    align-items: center;
+}
+.toast-icon {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* Animación */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to   { opacity: 0.95; transform: translateY(0); }
+}
+
+/* Posicionamiento responsive */
+@media (min-width: 768px) {
+    .toast-notification {
+        top: 20px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .toast-notification {
+        bottom: 20px;
+        right: 20px;
+    }
+}
+/* Ajuste del container para móviles */
+@media (max-width: 767px) {
+  .navbar-nav {
+    width: 100% !important;
+    text-align: center;
+  }
+  .navbar-nav .nav-item {
+    width: 100%;
+  }
+  #btn-cart-mobile {
+    width: 80%;
+    margin: 1px auto 2px auto;
+    display: block;
+  }
+  .navbar-toggler{
+    margin: 1rem;
+  }
+}
+.shop-badge{
+  background-color: #333;
+}

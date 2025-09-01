@@ -38,7 +38,7 @@ function mostrarToast(mensaje, tipo = 'success') {
     toast.className = `toast-notification toast-${tipo}`;
     toast.innerHTML = `
         <div class="d-flex align-items-center">
-            <span class="me-2">${tipo === 'success' ? '✓' : '✗'}</span>
+            <span class="me-2 toast-icon">${tipo === 'success' ? '✓' : '✗'}</span>
             <span>${mensaje}</span>
         </div>
     `;
@@ -246,7 +246,7 @@ function mostrarShop() {
         <div class="fade-in shop-section py-5">
             <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap">
                 <h2 class="fw-bold shop-title">Nuestra Colección</h2>
-                <span class="badge bg-primary fs-6 shop-badge">${productos.length} productos</span>
+                <span class="badge  fs-6 shop-badge">${productos.length} productos</span>
             </div>
             <div class="mb-4 categorias-container">${botonesCategorias}</div>
             <div class="row g-4" id="productos-container">

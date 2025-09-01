@@ -16,36 +16,45 @@
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" style="background-color: var(--color-surface);">
-    <div class="container">
-      <a class="navbar-brand fw-bold fs-3" href="#" data-section="inicio" style="color: var(--color-primary);">ZANMA</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+  <div class="container-fluid">
+    <!-- Brand -->
+    <a class="navbar-brand fw-bold fs-3" href="#" data-section="inicio" style="color: var(--color-primary);">ZANMA</a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 w-100 w-lg-auto">
+        <li class="nav-item">
+          <a class="nav-link active m-1 text-center" href="#" data-section="inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link m-1 text-center" href="#" data-section="conocenos">Conócenos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link m-1 text-center" href="#" data-section="shop">Shop</a>
+        </li>
+        <!-- Carrito móvil -->
+        <li class="nav-item d-lg-none mt-3">
+          <button class="btn btn-outline-primary position-relative w-100" id="btn-cart-mobile" 
+                  data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart" aria-controls="offcanvasCart">
+            🛒 Carrito
+            <span class="cart-badge d-none" id="cart-count-mobile">0</span>
+          </button>
+        </li>
+      </ul>
+      <!-- Carrito desktop -->
+      <button class="btn btn-outline-primary position-relative d-none d-lg-block ms-3" id="btn-cart" 
+              data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart" aria-controls="offcanvasCart">
+        🛒 Carrito
+        <span class="cart-badge d-none" id="cart-count">0</span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active m-1" href="#" data-section="inicio">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link m-1" href="#" data-section="conocenos">Conócenos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link m-1" href="#" data-section="shop">Shop</a>
-          </li>
-          <li class="nav-item d-lg-none">
-            <button class="btn btn-outline-primary position-relative w-100 mt-3" id="btn-cart-mobile" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart" aria-controls="offcanvasCart">
-              🛒 Carrito
-              <span class="cart-badge d-none" id="cart-count-mobile">0</span>
-            </button>
-          </li>
-        </ul>
-        <button class="btn btn-outline-primary position-relative d-none d-lg-block ms-3" id="btn-cart" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart" aria-controls="offcanvasCart">
-          🛒 Carrito
-          <span class="cart-badge d-none" id="cart-count">0</span>
-        </button>
-      </div>
     </div>
+  </div>
   </nav>
 
   <!-- Contenido principal -->
@@ -104,7 +113,8 @@
   </footer>
 
   <!-- Bootstrap JS y Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
   <!-- AOS JS -->
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <!-- Scripts personalizados -->
