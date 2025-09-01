@@ -21,19 +21,21 @@ body {
   letter-spacing: 0.02em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
 }
 
 .container {
   max-width: 1200px;
-  padding: 0 24px;
-  margin: 0 auto;
+  padding: 0 px;
+  margin: 2 auto;
+  align-items: center;
 }
 
 /* Navbar principal */
 .navbar {
-  background-color: var(--color-surface);
+  background-color:#1E1E1E;
   border-bottom: 1px solid var(--color-border);
-  padding: 1.2rem 0;
+  padding: 0 0;
   backdrop-filter: blur(20px);
   z-index: 1030; /* Siempre arriba */
 }
@@ -51,16 +53,16 @@ body {
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
   color: var(--color-primary) !important;
-  background-color: var(--color-secondary);
+  background-color: rgb(0, 0, 0);
 }
 #btn-cart:active{
-  background-color: var(--color-accent);
+  background-color: black;
 }
 .btn{
-  color: #333;
+  color: #807c7c;
 }
 #btn-cart:hover{
-  background-color: var(--color-accent);
+  background-color: black;
 }
 
 /* Navbar collapse móvil */
@@ -251,39 +253,61 @@ body {
   background-color: var(--color-secondary);
 }
 
-.footer {
-  background-color: var(--color-surface);
-  color: var(--color-text);
-  padding: 4rem 0 2rem;
-  margin-top: 6rem;
-  border-top: 1px solid var(--color-border);
-  font-weight: 400;
+/* Footer moderno y minimalista */
+/* Footer moderno y minimalista */
+.footer-modern {
+  background-color: #1E1E1E; /* fondo oscuro */
+  color: #EDEDED;
+  font-family: 'Inter', sans-serif;
 }
 
-.footer a {
-  color: var(--color-primary);
+.footer-modern a {
+  color: #EDEDED;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.footer-modern a:hover {
+  color: var(--color-primary);
+}
+
+.footer-modern .footer-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-modern .footer-text {
+  font-weight: 400;
+  font-size: 0.95rem;
   opacity: 0.8;
 }
 
-.footer a:hover {
-  opacity: 1;
-  color: var(--color-accent);
+.footer-modern hr {
+  border-color: rgba(237, 237, 237, 0.2);
 }
 
-.footer h5 {
+.footer-modern .social-icons i {
+  font-size: 1.3rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-modern .social-icons a:hover i {
+  transform: translateY(-3px);
   color: var(--color-primary);
-  margin-bottom: 1.25rem;
-  font-weight: 600;
-  font-size: 1.15rem;
 }
 
-.footer hr {
-  border-color: var(--color-border);
-  margin: 2.5rem 0;
-  opacity: 0.6;
+/* Responsive */
+@media (max-width: 767px) {
+  .footer-modern .social-icons {
+    justify-content: center !important;
+  }
+  .footer-modern text-lg-start {
+    text-align: center !important;
+  }
 }
+
+
 
 .categoria-btn {
   border-radius: 25px;
@@ -376,6 +400,11 @@ body {
 @media (max-width: 576px) {
   body {
     padding-top: 76px;
+    margin-left: 0;
+  }
+  .container{
+    margin: 0;
+    align-items: center;
   }
   
   .hero-section {
@@ -517,7 +546,67 @@ body {
   .navbar-toggler{
     margin: 1rem;
   }
+  .shop-badge{
+  background-color: #333;
+  }
+  .btn:hover{
+    background-color: var(--color-accent);
+  }
 }
 .shop-badge{
   background-color: #333;
+}
+/* Contenedor del mapa full width */
+.map-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Estilo general del iframe */
+.map-container iframe {
+    width: 100%;
+    border: 0;
+    display: block;
+}
+
+/* Para pantallas grandes */
+@media (min-width: 992px) {
+    .map-container iframe {
+        height: 600px; /* altura para desktop */
+    }
+}
+
+/* Para tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .map-container iframe {
+        height: 450px; /* altura para tablet */
+    }
+}
+
+/* Para móviles */
+@media (max-width: 767px) {
+    .map-container iframe {
+        height: 300px; /* altura para celular */
+    }
+}
+.logo-navbar {
+  height: 60px;          /* tamaño por defecto para escritorio */
+  object-fit: contain;
+  transition: height 0.3s ease;
+}
+
+/* Ajuste para pantallas medianas */
+@media (max-width: 992px) {
+  .logo-navbar {
+    height: 70px;
+    margin: 0.5rem 0;
+  }
+}
+
+/* Ajuste para pantallas pequeñas/móviles */
+@media (max-width: 576px) {
+  .logo-navbar {
+    height: 55px;
+    margin: 0.1rem 0;
+  }
 }

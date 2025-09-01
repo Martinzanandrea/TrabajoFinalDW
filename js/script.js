@@ -75,7 +75,7 @@ function mostrarInicio() {
         <!-- Valores -->
         <section class="container my-5 ">
             <div class="row text-center g-4">
-                <div class=" col-12 col-md-4" data-aos="fade-right">
+                <div class=" col-12 col-md-4 col-6" data-aos="fade-right">
                     <div class="p-4 h-100 shadow-sm rounded-3" style="background: var(--color-card);">
                         <h4 class="mb-2" style="color: var(--color-primary);">🌟 Calidad</h4>
                         <p class="text-muted">Prendas premium diseñadas para durar</p>
@@ -84,7 +84,7 @@ function mostrarInicio() {
                 <div class="col-12 col-md-4 " data-aos="fade-up">
                     <div class="p-4 h-100 shadow-sm rounded-3" style="background: var(--color-card);">
                         <h4 class="mb-2" style="color: var(--color-primary);">🚚 Envío Gratis</h4>
-                        <p class="text-muted">En pedidos superiores a $50</p>
+                        <p class="text-muted">En pedidos superiores a $50.000</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4" data-aos="fade-left">
@@ -182,10 +182,8 @@ function mostrarConocenos() {
         <div class="row align-items-center fade-in">
             <div class="col-md-6">
                 <h2 class="fw-bold mb-4" style="color: var(--color-primary);">Nuestra Historia</h2>
-                <p class="lead">
+                <p class=>
                     ZANMA nació con la visión de crear moda que combine estilo, calidad y sostenibilidad.
-                </p>
-                <p>
                     Desde 2020, nos dedicamos a seleccionar las mejores prendas y tendencias para que puedas expresar tu estilo único.
                     Trabajamos directamente con diseñadores locales y fabricantes éticos para garantizar la mejor calidad.
                 </p>
@@ -194,7 +192,7 @@ function mostrarConocenos() {
                 </p>
             </div>
             <div class="col-md-6">
-                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/cb853047-3d09-4ca8-ba89-d2c59818d5c2.png" 
+                <img src="img/grupodetrabajo.png" 
                      alt="Equipo de ZANMA trabajando en el diseño de moda" 
                      class="img-fluid rounded shadow">
             </div>
@@ -229,6 +227,15 @@ function mostrarConocenos() {
                 </div>
             </div>
         </div>
+        <div class="map-container mb-5 mt-5 m-2">
+            <h2>📍-Donde encontrarnos:</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27296.73236833095!2d-58.028567308984385!3d-31.21819301774949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1756757088524!5m2!1ses-419!2sar"  
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+</div>
     `;
 }
 
